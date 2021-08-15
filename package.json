@@ -2,7 +2,6 @@
   "name": "counter-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://fernaldifz.github.io/react-counter-application",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -15,8 +14,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
